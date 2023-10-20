@@ -1,0 +1,130 @@
+.logo{
+    width: 190px;
+    height: 150px;
+}
+
+.title{
+    font-size: 30px;
+    color: darkmagenta;
+    text-shadow: rgb(145, 208, 227) -5px 5px 7px, rgb(197, 162, 235) -4px 7px 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 65px;
+    left: 240px;
+}
+
+.table{
+    width: 1175px;
+    height: 40px;
+    background-color: rgb(165, 161, 201);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.cell{
+    width: 12%;
+    text-align: center;
+    background-color: rgb(165, 161, 201);
+    border: 2px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+
+.homecell{
+    width: 12%;
+    text-align: center;
+    background-color: rgb(48, 43, 99);
+    color: yellow;
+}
+
+.empty{
+    width:12%;
+    background-image: linear-gradient(rgb(165, 161, 201), rgb(132, 129, 163));
+}
+
+.sub1{
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.sub2{
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: overline;
+}
+
+.tagline{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.showcasebox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 2px dotted darkmagenta;
+}
+
+.showcaseimg{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(185, 12, 185);
+}
+
+.leftbar{
+    float: left;
+    width: 425px;
+    height:auto;
+    margin-right: 100px;
+    background-image: linear-gradient(rgb(204, 120, 169), 5%, rgb(240, 201, 205));
+}
+
+.main{
+    width: 1155px;
+    height: 927px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-image: linear-gradient(rgb(248, 248, 151), .5%, white);
+}
+
+.mainimg{
+    width: 500px;
+    border: 3px solid rgb(206, 153, 162);
+}
+
+
+.footer{
+    position: sticky;
+    width: 1135px;
+    padding: 20px;
+    background-image:url(images/footer.jpg);
+    background-size: 100%;
+    color:yellow;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+    a{
+        color: lightsteelblue;
+    }
+}
+
+.container{
+    background-color: lavender;
+    width: 150px;
+    height: 100px;
+    border-radius: 25px;
+    position: absolute;
+    left: 532px;
+    padding: 40px;
+    padding-top: 10px;
+    margin-top: 25px;
+}
